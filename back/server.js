@@ -10,7 +10,7 @@ const db = mysql.createConnection({
     host: "localhost",
     user:"root",
     password:"",
-    database:"test-stage"
+    database:"stage"
 })
 
 app.listen(8081, () => {
